@@ -1,0 +1,11 @@
+ul {
+font-size: 6mm;color:#38223c}
+li {
+}
+img {
+max-width: 100%;
+}
+.header {
+background-image: linear-gradient(red, yellow, green);
+font-size:8mm;
+}
