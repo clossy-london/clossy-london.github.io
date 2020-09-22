@@ -2,7 +2,24 @@
   <header>
   </header>
 <body>
-  <link rel="stylesheet" href="style 3.css">
+  <script>
+    var curtheme = 1
+    function changeTheme() {
+      if (curtheme == 1)
+      {
+        curtheme = 2
+        document.getElementById("theme").setAttribute('href', 'style 3.css')
+        
+      } else if (curtheme == 2)
+      {
+        curtheme = 1
+        
+        document.getElementById("theme").setAttribute('href', 'styl 2.css')
+      }
+    }
+  </script>
+  <button type="button" onclick="changeTheme">Click Me!</button>
+  <link id="theme" rel="stylesheet" href="style 3.css">
   <font rwr="1" size="4" style="font-family:barcool">
 <p style="text-align: center;"><i style=""><b style=""><font size="4" style=""><font style=""><u a>PRODUCT DESCRIPTION</u></font>&nbsp;</font></b></i></p>
 <p class="header">Best quality material from Clossy London</p>
